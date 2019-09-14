@@ -1,10 +1,10 @@
 def nyc_pigeon_organizer(data)
-  pigeons = {}
-  pigeon_names = data.collect{
-    stats = data.keys[0]
-    info = stats.keys[0]
-    
+  categories = {}
+  data.each {|d|
+    d.each {|cat|
+     categories.merge{}
+    }
     
   }
-  p pigeons
+  p pigeon_list
 end
