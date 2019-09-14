@@ -1,12 +1,13 @@
 def nyc_pigeon_organizer(data)
-  categories = {}
+  info_types = {}
+  p data
   data.each {|d|
-    d.each {|cat|
-     categories.merge!{cat}
+    d.each {|types|
+     categories.merge!{types}
     }
     
   }
-  p categories
+  p info_types
 end
 
 nyc_pigeon_organizer({
