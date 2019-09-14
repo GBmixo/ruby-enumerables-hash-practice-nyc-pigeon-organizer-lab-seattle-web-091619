@@ -6,5 +6,5 @@ def nyc_pigeon_organizer(data)
     }
     
   }
-  p pigeon_list
+  p categories
 end
