@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each {|d|
     d.each {|types|
     p types
-     info_types.merge!{types}
+    info_types.merge!(types)
     }
     
   }
